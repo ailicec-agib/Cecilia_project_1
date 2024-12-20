@@ -1,0 +1,13 @@
+{
+  "id" : "https://ailicec-agib.github.io/Cecilia_project_1/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ailicec-agib/Cecilia_project_1 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/manifests/manifest.json",
+    "label" : "Project 1, example"
+  } ]
+}
