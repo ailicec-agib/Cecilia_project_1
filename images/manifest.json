@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ailicec-agib.github.io/Cecilia_project_1/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in ailicec-agib/Cecilia_project_1 project"
+        ]
+    },
+    "items": []
+}
