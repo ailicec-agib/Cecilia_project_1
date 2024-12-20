@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/manifests/wine_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Wine_manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "An example of manifest  based on 2 images about wine",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Cecilia Biga",
+  "sequences" : [ {
+    "@id" : "http://5404be83-b351-4a97-b056-def0c15eca5e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e424811d-1b4e-4afc-aa01-60bff1cf7c31",
+      "@type" : "sc:Canvas",
+      "label" : "Canva_2",
+      "height" : 814,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://be466d37-4ea6-4adc-8b72-06291b3cddbb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 814,
+          "width" : 640
+        },
+        "on" : "http://e424811d-1b4e-4afc-aa01-60bff1cf7c31"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://034ca102-066a-45cd-9ede-89f732b18b3f",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas_1",
+      "height" : 966,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://02ed4f41-aba4-4fc7-a409-11f39ba3e25d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/images/project_1_woman/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/images/project_1_woman",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 966,
+          "width" : 640
+        },
+        "on" : "http://034ca102-066a-45cd-9ede-89f732b18b3f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
