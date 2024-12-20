@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Project 1, example",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "An example of manifest  based on 2 images",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Cecilia Biga",
+  "sequences" : [ {
+    "@id" : "http://5404be83-b351-4a97-b056-def0c15eca5e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://034ca102-066a-45cd-9ede-89f732b18b3f",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas_1_example",
+      "height" : 966,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://02ed4f41-aba4-4fc7-a409-11f39ba3e25d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/images/project_1_woman/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/images/project_1_woman",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 966,
+          "width" : 640
+        },
+        "on" : "http://034ca102-066a-45cd-9ede-89f732b18b3f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
