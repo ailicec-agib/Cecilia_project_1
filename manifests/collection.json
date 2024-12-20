@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/manifests/manifest.json",
     "label" : "Project 1, example"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ailicec-agib.github.io/Cecilia_project_1/manifests/wine_manifest.json",
+    "label" : "Wine_manifest"
   } ]
 }
