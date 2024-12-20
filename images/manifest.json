@@ -88,6 +88,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "aesop-wines-12MlCD5KlYw-unsplash"
+                ]
+            },
+            "height": 814,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 26
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 51
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 102
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 204
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 407
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 814
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 640,
+                                        "@id": "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 814,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://ailicec-agib.github.io/Cecilia_project_1/images/aesop-wines-12MlCD5KlYw-unsplash/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
